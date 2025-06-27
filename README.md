@@ -549,6 +549,9 @@ The Geospatial Data Carpentry for Urbanism data is made available under the
 ODbL 1.0 license, as it is derived from:
 - OpenStreetMap data licensed under the ODbL 1.0 license
 - Gapminder data licensed under the CC BY 4.0 license
+- AHN data licensed under the CC0 1.0 license
+- Luchfoto data licensed under the CC BY 4.0 license
+- PDOK data licensed under the CC BY 4.0 license
 
 ## 5.2 Links to other resources:
 
@@ -558,12 +561,20 @@ ODbL 1.0 license, as it is derived from:
 - [Workshop repository](https://github.com/carpentries-incubator/r-geospatial-urban)
 - [Gapminder dataset](https://www.gapminder.org/data/)
 - [OSM data](https://www.openstreetmap.org/about)
+- [AHN data](https://www.ahn.nl/en)
+- [Luchtfoto data](https://www.luchtfoto.nl/)
+- [PDOK data](https://www.pdok.nl/datasets)
 
 ### 5.2.2 Links to publicly accessible scripts for analysis of the dataset:
 - [Carpentry Repository](https://github.com/carpentries-incubator/r-geospatial-urban)
 
 ### 5.2.3 Was data derived from another source?
-Yes, from OpenstreetMap and Gapminder datasets.
+Yes, from the following sources:
+- OpenStreetMap 
+- Gapminder data
+- AHN (Actueel Hoogtebestand Nederland)
+- Luchtfoto (Aerial imagery of the Netherlands)
+- PDOK (Publieke Dienstverlening Op de Kaart)
 
 ## 5.3 Recommended citation for this dataset:
 Forgaci, C., Cottineau, C., Wilczynska, A., Petrovic, A., Cannatella, D.,
