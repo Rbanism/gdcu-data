@@ -574,6 +574,6 @@ Yes, from the following sources:
 Forgaci, C., Cottineau, C., Wilczynska, A., Petrovic, A., Cannatella, D.,
 Urria Yáñez, I., San Millán Tejedor, J., Conceicao, J. F., Janssen, K.,
 Garcia, M., Kubilay, S. (2024). Geospatial Data Carpentry for Urbanism Workshop
-Data. Zenodo. 
+Data. 4TU.ResearchData. https://doi.org/10.4121/fb0b4e31-f7e4-43e6-9e30-a2a08b184d09
 
 This README.md file template was generated on 2022-04-19 by Claudiu Forgaci and Adele Therias according to the 4TU.ResearchData [Guidelines for creating a README file](https://data.4tu.nl/info/en/use/publish-cite/upload-your-data-in-our-data-repository) and the Cornell University template [Guide to writing "readme" style metadata](https://cornell.app.box.com/v/ReadmeTemplate) and is licensed under CC BY 4.0
