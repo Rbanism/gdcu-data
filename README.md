@@ -557,13 +557,7 @@ ODbL 1.0 license, as it is derived from:
 
 ### 5.2.1 Links to other publicly accessible locations of the data: 
 
-- [Workshop episodes](https://carpentries-incubator.github.io/r-geospatial-urban/)
-- [Workshop repository](https://github.com/carpentries-incubator/r-geospatial-urban)
-- [Gapminder dataset](https://www.gapminder.org/data/)
-- [OSM data](https://www.openstreetmap.org/about)
-- [AHN data](https://www.ahn.nl/en)
-- [Luchtfoto data](https://www.luchtfoto.nl/)
-- [PDOK data](https://www.pdok.nl/datasets)
+N/A
 
 ### 5.2.2 Links to publicly accessible scripts for analysis of the dataset:
 - [Carpentry Repository](https://github.com/carpentries-incubator/r-geospatial-urban)
