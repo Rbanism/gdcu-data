@@ -31,13 +31,13 @@
 # 1. GENERAL INFORMATION
 
 ## 1.1 Title of Dataset
-Geospatial Data Carpentry for Urbanism 
+Geospatial Data Carpentry for Urbanism Workshop Data
 
 ## 1.2 Dataset description
 
-This dataset contains geospatial data required to render the Geospatial Data Cerpentry for Urbanism developed by the Rbanism team at TU Delft.
+This dataset contains geospatial data required to render the Geospatial Data Carpentry for Urbanism developed by the Rbanism team at TU Delft.
 
-Additional details about the carpentry can be accessed [here](https://carpentries-incubator.github.io/r-geospatial-urban/).
+The workshop material can be accessed [here](https://carpentries-incubator.github.io/r-geospatial-urban/).
 
 ## 1.3 Authors Information
 The carpentry was developed by:
@@ -47,12 +47,12 @@ The carpentry was developed by:
 - [Aleksandra Wilczynska](https://github.com/alwil)
 - [Ana Petrovic](https://github.com/ana-5r)
 - [Daniele Cannatella](https://github.com/dcannatella)
+- [Ignacio Urria Yáñez](https://github.com/iurriayanez)
 - [Javier San Millán Tejedor](https://github.com/javisanmillan)
 - [Jerome Francisco Conceicao](https://github.com/fcjerome)
 - [Kyri Janssen](https://github.com/KyriJanssen)
 - [Manuel Garcia](https://github.com/manuGil)
 - [Selin Kubilay](https://github.com/Selkubi)
-- [Ignacio Urria Yáñez](https://github.com/iurriayanez)
 
 ## 1.4 Dates of data collection
 January 2024
@@ -67,12 +67,19 @@ Geospatial, R, Urbanism, Data Carpentry, Open Data, Open Science
 English
 
 ## 1.8 Information about funding sources that supported the collection of the data
-The Rbanism community was started by the [Rbanism fellowship project](https://www.esciencecenter.nl/fellowship-programme/claudiu-forgaci/) funded by the Netherlands eScience Center and with support from the Mainstreaming Open Science Fund of the Open Science Community Delft.
+The activities of the Rbanism community, including the preparation of this
+dataset, were supported by the the Netherlands eScience Center, the
+Mainstreaming Open Science Fund of the Open Science Community Delft, and the
+Department of Urbanism at TU Delft.
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses
-The dataset is designed to support the Geospatial Data Carpentry for Urbanism, which aims to teach participants how to work with geospatial data in R, specifically in the context of urban studies. 
-The dataset is structured to facilitate hands-on learning and practical applications of geospatial analysis techniques.
+The dataset is designed to support the Geospatial Data Carpentry for Urbanism,
+which aims to teach participants how to work with geospatial data in R,
+specifically in the context of urban studies.
+
+The dataset is structured to facilitate hands-on learning and practical
+applications of geospatial analysis techniques.
 
 ## 2.2 Methods for processing the data
 - Raster data was processed using the `terra` package in R.
@@ -80,9 +87,8 @@ The dataset is structured to facilitate hands-on learning and practical applicat
 - Data was cleaned and transformed using the `dplyr` and `tidyr` packages
 - Data visualization was performed using the `ggplot2` package.
 
-
 ## 2.3 Instrument- or software-specific information
-- The carpentry uses R as the primary programming language for data analysis and visualization.
+- The workshop uses R as the primary programming language for data analysis and visualization.
 - The dataset is compatible with R version 4.4.0 and above.
 - The following R packages and libraries are required for the carpentry:
   - GDAL, GEOS, and PROJ.4
@@ -109,7 +115,7 @@ Are there multiple versions of the dataset? No
 - "bounding-box-brielle.shp": A shapefile with a polygon representing the bounding box of the Brielle area in the Netherlands.
 - "data-brielle.shp": A shapefile with polygons representing buildings in the Brielle area.
 
-> **Note:** All shapefiles are accompanied by its standard complementary files (e.g., `.shx`, `.dbf`, `.prj`). For simplicity, only the main `.shp` file are listed, but all associated files are included in the dataset package.
+> **Note:** All shapefiles are accompanied by their standard complementary files (e.g., `.shx`, `.dbf`, `.prj`). For simplicity, only the main `.shp` file are listed here, but all associated files are included in the dataset package.
 
 
 ### 3.1.3 Raster data
@@ -465,7 +471,7 @@ Are there multiple versions of the dataset? No
     - Full name: Hillshade of the Digital Surface Model (DSM) at 5m resolution
     - Description: Hillshade representation of the DSM to visualize terrain features
     - Type of variable: Numeric
-    - Unit of measurement: Meters
+    - Unit of measurement: Intensity of illumination ranging from 0 (darkest) to 255 (brightest)
     - Number of missing values: 0
 
 4. Specialised formats or other abbreviations used: N/A
@@ -482,7 +488,7 @@ Are there multiple versions of the dataset? No
     - Full name: Hillshade of the Digital Terrain Model (DTM) at 5m resolution
     - Description: Hillshade representation of the DTM to visualize terrain features
     - Type of variable: Numeric
-    - Unit of measurement: Meters
+    - Unit of measurement: Intensity of illumination ranging from 0 (darkest) to 255 (brightest)
     - Number of missing values: 0
 
 4. Specialised formats or other abbreviations used: N/A
@@ -499,7 +505,7 @@ Are there multiple versions of the dataset? No
     - Full name: Hillshade of the Digital Terrain Model (DTM) at 5m resolution in WGS 84
     - Description: Hillshade representation of the DTM to visualize terrain features, projected in WGS
     - Type of variable: Numeric
-    - Unit of measurement: Meters
+    - Unit of measurement: Intensity of illumination ranging from 0 (darkest) to 255 (brightest)
     - Number of missing values: 0
 
 4. Specialised formats or other abbreviations used: N/A
@@ -516,21 +522,21 @@ Are there multiple versions of the dataset? No
     - Full name: Red band of the RGB composite
     - Description: Red channel of the RGB color composite for the TU Delft library area
     - Type of variable: Numeric
-    - Unit of measurement: N/A
+    - Unit of measurement: Intensity of color ranging from 0 (no intensity) to 255 (full intensity)
     - Number of missing values: 0
 
 - "tudlib-rgb_2"
     - Full name: Green band of the RGB composite
     - Description: Green channel of the RGB color composite for the TU Delft library area
     - Type of variable: Numeric
-    - Unit of measurement: N/A
+    - Unit of measurement: Intensity of color ranging from 0 (no intensity) to 255 (full intensity)
     - Number of missing values: 0
 
 - "tudlib-rgb_3"
     - Full name: Blue band of the RGB composite
     - Description: Blue channel of the RGB color composite for the TU Delft library area
     - Type of variable: Numeric
-    - Unit of measurement: N/A
+    - Unit of measurement: Intensity of color ranging from 0 (no intensity) to 255 (full intensity)
     - Number of missing values: 0
 
 4. Specialised formats or other abbreviations used: N/A
@@ -539,24 +545,35 @@ Are there multiple versions of the dataset? No
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
-The Geospatial Data Carpentry for Urbanism lesson, like most other software provided by The Carpentries, are made available under the OSI-approved MIT license. Please see the [LICENSE page](https://github.com/carpentries-incubator/r-geospatial-urban/blob/main/LICENSE.md) for further information.
+The Geospatial Data Carpentry for Urbanism data is made available under the
+ODbL 1.0 license, as it is derived from:
+- OpenStreetMap data licensed under the ODbL 1.0 license
+- Gapminder data licensed under the CC BY 4.0 license
+- AHN data licensed under the CC0 1.0 license
+- Luchfoto data licensed under the CC BY 4.0 license
+- Bestuurlijke Gebieden (obtained from PDOK.nl) licensed under the CC BY 4.0 license
 
 ## 5.2 Links to other resources:
 
 ### 5.2.1 Links to other publicly accessible locations of the data: 
 
-- [Carpentry episodes](https://carpentries-incubator.github.io/r-geospatial-urban/)
-- [Carpentry repository](https://github.com/carpentries-incubator/r-geospatial-urban)
-- [Gapminder dataset](https://www.gapminder.org/data/)
+N/A
 
 ### 5.2.2 Links to publicly accessible scripts for analysis of the dataset:
 - [Carpentry Repository](https://github.com/carpentries-incubator/r-geospatial-urban)
 
 ### 5.2.3 Was data derived from another source?
-Yes
+Yes, from the following sources:
+- OpenStreetMap 
+- Gapminder data
+- AHN (Actueel Hoogtebestand Nederland)
+- Luchtfoto (Aerial imagery of the Netherlands)
+- PDOK (Publieke Dienstverlening Op de Kaart)
 
 ## 5.3 Recommended citation for this dataset:
-
-Please see the [CITATION page](https://github.com/carpentries-incubator/r-geospatial-urban/blob/main/CITATION.cff) for guidance on how to cite this lesson.
+Forgaci, C., Cottineau, C., Wilczynska, A., Petrovic, A., Cannatella, D.,
+Urria Yáñez, I., San Millán Tejedor, J., Conceicao, J. F., Janssen, K.,
+Garcia, M., Kubilay, S. (2024). Geospatial Data Carpentry for Urbanism Workshop
+Data. Zenodo. 
 
 This README.md file template was generated on 2022-04-19 by Claudiu Forgaci and Adele Therias according to the 4TU.ResearchData [Guidelines for creating a README file](https://data.4tu.nl/info/en/use/publish-cite/upload-your-data-in-our-data-repository) and the Cornell University template [Guide to writing "readme" style metadata](https://cornell.app.box.com/v/ReadmeTemplate) and is licensed under CC BY 4.0
