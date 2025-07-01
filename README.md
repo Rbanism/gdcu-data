@@ -551,7 +551,7 @@ ODbL 1.0 license, as it is derived from:
 - Gapminder data licensed under the CC BY 4.0 license
 - AHN data licensed under the CC0 1.0 license
 - Luchfoto data licensed under the CC BY 4.0 license
-- PDOK data licensed under the CC BY 4.0 license
+- Bestuurlijke Gebieden (obtained from PDOK.nl) licensed under the CC BY 4.0 license
 
 ## 5.2 Links to other resources:
 
